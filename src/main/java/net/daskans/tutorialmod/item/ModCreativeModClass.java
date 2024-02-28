@@ -36,6 +36,8 @@ public class ModCreativeModClass {
 
                         output.accept(ModItems.METAL_DETECTOR.get());
 
+                        output.accept(ModBlocks.SOUND_BLOCK.get());
+
                     })
                     .build());
 }
