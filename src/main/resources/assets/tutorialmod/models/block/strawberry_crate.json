@@ -1,0 +1,8 @@
+{
+    "parent": "minecraft:block/cube_bottom_top",
+    "textures": {
+        "bottom": "tutorialmod:block/strawberry_crate_side",
+        "side": "tutorialmod:block/strawberry_crate_side",
+        "top": "tutorialmod:block/strawberry_crate_top"
+    }
+}

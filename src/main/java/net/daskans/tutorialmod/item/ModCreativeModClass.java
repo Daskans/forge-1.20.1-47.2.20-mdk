@@ -38,6 +38,9 @@ public class ModCreativeModClass {
 
                         output.accept(ModBlocks.SOUND_BLOCK.get());
 
+                        output.accept(ModItems.STRAWBERRY.get());
+                        output.accept(ModBlocks.STRAWBERRY_CRATE.get());
+
                     })
                     .build());
 }
