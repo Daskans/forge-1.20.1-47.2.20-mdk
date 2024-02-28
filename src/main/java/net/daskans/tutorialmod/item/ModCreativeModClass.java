@@ -41,6 +41,8 @@ public class ModCreativeModClass {
                         output.accept(ModItems.STRAWBERRY.get());
                         output.accept(ModBlocks.STRAWBERRY_CRATE.get());
 
+                        output.accept(ModItems.PINE_CONE.get());
+
                     })
                     .build());
 }
