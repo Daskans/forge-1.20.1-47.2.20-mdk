@@ -1,6 +1,7 @@
 package net.daskans.tutorialmod;
 
 import com.mojang.logging.LogUtils;
+import net.daskans.tutorialmod.block.ModBlocks;
 import net.daskans.tutorialmod.item.ModCreativeModClass;
 import net.daskans.tutorialmod.item.ModItems;
 import net.minecraft.client.Minecraft;
@@ -37,6 +38,7 @@ public class TutorialMod
         ModCreativeModClass.register(modEventBus);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
