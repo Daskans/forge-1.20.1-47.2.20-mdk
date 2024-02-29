@@ -1,7 +1,7 @@
 {
     "parent": "minecraft:block/cube_bottom_top",
     "textures": {
-        "bottom": "tutorialmod:block/strawberry_crate_side",
+        "bottom": "tutorialmod:block/strawberry_crate_bottom",
         "side": "tutorialmod:block/strawberry_crate_side",
         "top": "tutorialmod:block/strawberry_crate_top"
     }

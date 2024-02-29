@@ -6,9 +6,9 @@
 
     "item.tutorialmod.strawberry": "Strawberry",
 
-    "item.tutorialmod.pine_cone": "Pine cone",
+    "item.tutorialmod.pine_cone": "Pine Cone",
 
-    "item.tutorialmod.sound_block": "sound_block",
+    "block.tutorialmod.sound_block": "Sound Block",
 
     "block.tutorialmod.sapphire_block": "Block of Sapphire",
     "block.tutorialmod.raw_sapphire_block": "Block of Raw Sapphire",
@@ -17,6 +17,8 @@
     "block.tutorialmod.nether_sapphire_ore": "Nether Sapphire ore",
     "block.tutorialmod.end_stone_sapphire_ore": "Endstone Sapphire ore",
     "block.tutorialmod.strawberry_crate": "Strawberry crate",
+
+    "tooltip.tutorialmod.metal_detector.tooltip": "Finds valueables underground !",
 
     "creativetab.tutorial_tab": "Mod tutorial tab "
 }
