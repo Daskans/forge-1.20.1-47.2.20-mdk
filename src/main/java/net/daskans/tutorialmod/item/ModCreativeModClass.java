@@ -44,6 +44,7 @@ public class ModCreativeModClass {
                         output.accept(ModBlocks.NETHER_SAPPHIRE_ORE.get());
 
                         output.accept(ModItems.METAL_DETECTOR.get());
+                        output.accept(ModItems.SAPPHIRE_STAFF.get());
 
 
                         output.accept(ModBlocks.SOUND_BLOCK.get());
