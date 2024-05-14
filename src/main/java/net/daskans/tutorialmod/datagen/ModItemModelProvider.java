@@ -22,6 +22,7 @@ import net.minecraftforge.registries.RegistryObject;
 import java.util.LinkedHashMap;
 
 public class ModItemModelProvider extends ItemModelProvider {
+
     public ModItemModelProvider(PackOutput output, ExistingFileHelper existingFileHelper) {
         super(output, TutorialMod.MODID, existingFileHelper);
     }
@@ -47,8 +48,14 @@ public class ModItemModelProvider extends ItemModelProvider {
         blockItem(ModBlocks.SAPPHIRE_SLAB);
         blockItem(ModBlocks.SAPPHIRE_STAIRS);
         trapdoorItem(ModBlocks.SAPPHIRE_TRAPDOOR);
+
+        handheldItem(ModItems.SAPPHIRE_SWORD);
+        handheldItem(ModItems.SAPPHIRE_PICKAXE);
+        handheldItem(ModItems.SAPPHIRE_AXE);
+        handheldItem(ModItems.SAPPHIRE_SHOVEL);
+        handheldItem(ModItems.SAPPHIRE_HOE);
     }
-    // Shoutout to El_Redstoniano for making this
+
 
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {
